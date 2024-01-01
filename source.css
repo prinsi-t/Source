@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(245, 249, 252);
+    color: rgb(44, 68, 88);
+}
+
+header  nav *{
+    float: left;
+    width: 30%;
+    
+} 
+
+header nav h3{
+    font-size: 25px;
+    margin-top: 0.3em;
+    margin-left: 2em;
+}
+
+header nav form button{
+    margin: 1em 0 0 20em;
+    background-color: rgb(44, 68, 88);
+    color: white;
+    padding: 8px 5px;
+}
+
+header nav ul  li{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+header nav ul li:nth-child(4){
+    margin: -1.2em 0 0 22em;
+}
+
+.meme{
+    float: right;
+    height: 400px;
+    margin: 4em 0 0 0;
+    width: 550px;
+}
+
+@media all and (max-width: 1024px){
+    header nav h3{
+        margin: 1em 0 0 2em;
+    }
+
+    header nav ul li:nth-child(4){
+        margin: -1.1em 0 0 17em;
+    }
+
+    header nav ul  li{
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+    }
+
+    header nav form button{
+        margin-top: 1em;
+    }
+}
+
+section main {
+    float: left;
+    margin: 4em 0 0 12em;
+}
+
+section main span{
+    font-size: 14px;
+}
+
+section main h1{
+    font-size: 45px;
+}
+
+section main p{
+    width: 70%;
+    font-size: 18px;
+}
+
+section main form input{
+    background-color: rgb(226, 234, 240);
+    padding: 10px 45px;
+    border: none;
+}
+
+section main form button{
+    background-color: rgb(44, 68, 88);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+section main form button:hover{
+    cursor:  pointer;
+}
+
+footer{
+    float: left;
+    margin: 5% 5%;
+    margin-left: 8em;
+}
+
+.one{
+    margin-left: 18em;
+    margin-top: -11.3em;
+}
+
+
+.two{
+    margin-left: 38em;
+    margin-top: -11.3em;
+}
+
+.three{
+    margin-left: 57em;
+    margin-top: -11.3em;
+}
+
+footer  section span{
+    font-weight: bolder;
+}
+
+i{
+    font-size: 2em;
+}
+
+@media all and (max-width: 600px){
+    .aria span,h1,.no,input,p{
+        float: left;
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        clear: both;
+        
+    }
+
+    .meme{
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        clear: both;
+    }
+
+    footer > .paa,.one,.two,.three{
+        float: left;
+        width: 100%;
+        margin: 0;
+        clear: both;
+    }
+
+    header nav ul li,.no{
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    
+    
+}
+
+
