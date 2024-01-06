@@ -148,6 +148,10 @@ section main form button:hover{
         width: 100%;
         margin-left: 0.5em;
     }
+
+    section main form input{
+        padding: 7px 30px;
+    }
 }
 
 .meme{
